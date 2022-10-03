@@ -1,0 +1,6 @@
+@import "../globle/variable";
+iframe {
+    width: $width;
+    height: 400px;
+    margin-top: $margin;
+}

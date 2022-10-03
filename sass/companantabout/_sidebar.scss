@@ -1,0 +1,104 @@
+@import "../globle/variable";
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    .sidebar-left{
+        width: 70%;
+        background-color:  rgb(250, 249, 252); 
+        background-color: aqua;
+        display: flex;
+        // background-image: url(../../imag/change-job-location-linkedin.png);
+        background-size: cover;
+        flex-direction: column;
+        .first{
+            text-align: center;
+            h2{
+                font-size: 60px;
+                margin: 5%;
+            }
+            .staff{
+                padding-top: 90%;
+                text-align: center;
+                h2{
+                    color: orangered;
+                    background-color: rgba(0, 255, 255, 0.26);
+                }
+                p{
+                    color:$colortext;
+                    background-color:rgba(0, 0, 0, 0.247) ;
+                    padding: 2%;
+                }
+            }
+            button{
+                padding: 1%;
+                background-color: $colortext;
+                border: 1px solid $colortextandboder;
+   
+            }
+            button:hover{
+                cursor: pointer;
+                padding: 2%;
+                color: $colortextandboder;
+                background-color:rgb(241, 241, 248);
+            }
+        }
+        .second{
+            margin-top: $margin;
+            background-color: rgb(101, 85, 151);                         
+            
+        }
+    }
+    .sidebar-right{
+        width: 30%;
+        background-color: $colortext;
+        .read{
+            display: flex;
+            flex-direction: row;
+            margin: $margin;
+            img{
+                margin-right: $margin;
+                height: 5%;
+                
+            }
+            }
+            .pic{   
+                margin-top: $margin;
+                margin-bottom: $margin;
+                text-align: center;
+                img{
+                    margin-top: $margin;
+                    margin-left: $margin;
+                }
+                button{
+                    margin-top: 10%;
+                    border-radius: 0%;
+                    padding: $padding;
+                    font-size: 20px;
+                }
+            }
+        h2{
+            padding:$padding;
+            span{
+                color: orangered;
+                font-size: 50px;
+            }
+        h1{
+            padding: $padding;
+        }
+        }
+        .search{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            input{
+                padding: 2%;
+                width: 70%;
+            }
+            button{
+                background-color: blue;
+                border-radius: 0%;
+                color: $colortext;
+            }
+        }
+    }
+}

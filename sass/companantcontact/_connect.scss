@@ -1,0 +1,14 @@
+@import "../globle/variable";
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: $padding;
+    span{
+        font-size: 150%;
+        color: $colorbu;
+    }
+    p{
+        margin-left: 40%;
+    }
+}

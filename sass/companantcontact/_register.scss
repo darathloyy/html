@@ -1,0 +1,44 @@
+
+@import "../globle/variable";
+.register{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: $margin;
+    .drop{
+        border-left: 2px solid black;
+        padding-left: 1%;
+        padding-top: 40%;
+        margin-bottom: 0%;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        input{
+            margin-top: 30%;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid grey;
+            background-color: rgba(255, 255, 255, 0.073);
+            padding: 2%;
+        }
+        .bio{
+            margin-top: 30%;
+            width: $width;
+            margin-bottom: $margin;
+        }
+        button{
+            width: 20%;
+            border: 2px solid $colorboderbutton;
+            border-radius: 0;
+            background-color: rgba(255, 255, 255, 0.073);
+        }
+        button:hover{
+            cursor: pointer;
+            color: $colortextandboder;
+            background-color: $colorboderbutton;
+        }
+    }
+}

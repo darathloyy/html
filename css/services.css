@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+nav {
+  background-color: rgb(36, 40, 85);
+  display: flex;
+  padding: 1%;
+  flex-direction: row;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav .nav-left img {
+  border: 2px solid orangered;
+  border-radius: 50%;
+}
+nav .nav-left .link {
+  margin-left: 1%;
+}
+nav .nav-left .link a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+nav .nav-left .link #active {
+  background-color: orange;
+}
+nav .nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav .nav-right button {
+  margin: 20px;
+  background-color: goldenrod;
+  padding: 7px 10px 7px 10px;
+  border: none;
+  border-radius: 10px;
+}
+nav .nav-right button:hover {
+  cursor: pointer;
+  background-color: rgb(17, 33, 28);
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 40, 85);
+  margin-top: 5%;
+  padding: 2%;
+}
+.footer p, .footer h3 {
+  margin-top: -5px;
+}
+.footer h2 {
+  color: white;
+}
+.footer p:hover {
+  cursor: pointer;
+  color: rgb(255, 9, 202);
+}
+.footer .mission {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  color: grey;
+}
+.footer .get {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: grey;
+}
+.footer .our {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: grey;
+}
+.footer img:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.footer .connect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: rgb(70, 51, 51);
+}
+.footer .connect .meida {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+::-moz-placeholder {
+  font-size: 20px;
+}
+
+:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+.card {
+  background: white;
+  flex: 3;
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.img-card {
+  flex-basis: 32.5%;
+}
+
+.card-text {
+  flex-basis: 32.5%;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.main-first {
+  background-image: url(../imag/Hotel_International_y3ret8.jpg);
+  width: 100%;
+  margin-top: -3%;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+.main-first h1 {
+  padding-top: 4%;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.container .more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+}
+.container .more select {
+  margin-left: 3%;
+  width: 20%;
+}
+.container .more select .option {
+  font-weight: bolder;
+}
+.container .more button {
+  margin-left: 3%;
+  border-radius: 0%;
+  background-color: white;
+  border: 1px solid black;
+}
+.container .more button:hover {
+  background-color: aqua;
+}
+
+.table {
+  background: white;
+  flex: 3;
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background-image: url(../../imag/Hotel_International_y3ret8.jpg);
+  background-size: cover;
+}
+
+.bac-card {
+  flex-basis: 24%;
+  background-color: white;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bac-card .material-icons {
+  background-color: rgb(199, 196, 255);
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 7%;
+  margin-top: -8%;
+  border-radius: 50%;
+}
+
+.bac-card:hover {
+  background-color: aqua;
+}
+
+.table-card:hover {
+  background-color: aqua;
+}
+
+.table-card {
+  flex-basis: 24%;
+  background-color: white;
+  height: 35vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.table-card:hover {
+  cursor: pointer;
+}
+
+.one {
+  border-bottom: 8px solid rgb(246, 10, 73);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.material-icons:hover {
+  background-color: blue;
+}
+
+.a {
+  border: 4px solid rgb(246, 10, 73);
+}
+
+.two {
+  border-bottom: 8px solid rgb(18, 10, 246);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.b {
+  border: 4px solid rgb(18, 10, 246);
+}
+
+.three {
+  border-bottom: 8px solid rgb(8, 170, 233);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.c {
+  border: 4px solid rgb(8, 170, 233);
+}
+
+.four {
+  border-bottom: 8px solid rgb(246, 10, 73);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.d {
+  border: 4px solid rgb(246, 10, 73);
+}
+
+.five {
+  border-bottom: 8px solid rgb(10, 246, 30);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.e {
+  border: 4px solid rgb(10, 246, 30);
+}
+
+.six {
+  border-bottom: 8px solid rgb(246, 207, 10);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.f {
+  border: 4px solid rgb(246, 207, 10);
+}
+
+.seven {
+  border-bottom: 8px solid rgb(70, 54, 6);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.g {
+  border: 4px solid rgb(70, 54, 6);
+}
+
+.high {
+  border-bottom: 8px solid rgb(246, 10, 152);
+  height: 35vh;
+  flex-basis: 24%;
+}
+
+.h {
+  border: 4px solid rgb(246, 10, 152);
+}
+
+.picture img {
+  width: 100%;
+}
+
+@media (max-width: 744px) {
+  nav .nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -10%;
+  }
+  nav .nav-left .link {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-left img {
+    margin-left: 15%;
+    width: 40%;
+  }
+  nav .nav-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 744px) {
+  .container .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .more select {
+    margin-top: 4%;
+    width: 70%;
+  }
+  .container .more button {
+    margin-top: 4%;
+    width: 50%;
+  }
+  .img-card {
+    flex-basis: 48%;
+  }
+  .card-text {
+    flex-basis: 45%;
+  }
+  .bac-card {
+    flex-basis: 48%;
+  }
+  .table-card {
+    flex-basis: 40;
+  }
+}
+@media (max-width: 448px) {
+  .img-card {
+    flex-basis: 100%;
+  }
+  .card-text {
+    flex-basis: 100%;
+  }
+  .bac-card {
+    flex-basis: 100%;
+  }
+  .table-card {
+    flex-basis: 100%;
+  }
+}

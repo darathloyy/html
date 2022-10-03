@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+nav {
+  background-color: rgb(36, 40, 85);
+  display: flex;
+  padding: 1%;
+  flex-direction: row;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav .nav-left img {
+  border: 2px solid orangered;
+  border-radius: 50%;
+}
+nav .nav-left .link {
+  margin-left: 1%;
+}
+nav .nav-left .link a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+nav .nav-left .link #active {
+  background-color: orange;
+}
+nav .nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav .nav-right button {
+  margin: 20px;
+  background-color: goldenrod;
+  padding: 7px 10px 7px 10px;
+  border: none;
+  border-radius: 10px;
+}
+nav .nav-right button:hover {
+  cursor: pointer;
+  background-color: rgb(17, 33, 28);
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 40, 85);
+  margin-top: 5%;
+  padding: 2%;
+}
+.footer p, .footer h3 {
+  margin-top: -5px;
+}
+.footer h2 {
+  color: white;
+}
+.footer p:hover {
+  cursor: pointer;
+  color: rgb(255, 9, 202);
+}
+.footer .mission {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  color: grey;
+}
+.footer .get {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: grey;
+}
+.footer .our {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: grey;
+}
+.footer img:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.footer .connect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: rgb(70, 51, 51);
+}
+.footer .connect .meida {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+::-moz-placeholder {
+  font-size: 20px;
+}
+
+:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  margin-top: 5%;
+}
+
+.communicate {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-left: 2%;
+}
+.communicate div {
+  background-color: white;
+  width: 40%;
+}
+.communicate .phone {
+  padding-left: 2%;
+  text-align: center;
+  border-right: 2px solid grey;
+  border-left: 2px solid grey;
+  width: 30%;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+.connect span {
+  font-size: 150%;
+  color: orange;
+}
+.connect p {
+  margin-left: 40%;
+}
+
+.register {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.register .drop {
+  border-left: 2px solid black;
+  padding-left: 1%;
+  padding-top: 40%;
+  margin-bottom: 0%;
+}
+.register .input {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.register .input input {
+  margin-top: 30%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid grey;
+  background-color: rgba(255, 255, 255, 0.073);
+  padding: 2%;
+}
+.register .input .bio {
+  margin-top: 30%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.register .input button {
+  width: 20%;
+  border: 2px solid orangered;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.073);
+}
+.register .input button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: orangered;
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.search div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search div button {
+  border-radius: 0;
+}
+.search input {
+  width: 70%;
+  padding: 1%;
+}
+.search .material {
+  background-color: aqua;
+  padding: 1%;
+  text-align: center;
+}
+
+@media (max-width: 744px) {
+  nav .nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -10%;
+  }
+  nav .nav-left .link {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-left img {
+    margin-left: 15%;
+    width: 40%;
+  }
+  nav .nav-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 744px) {
+  .connect {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .connect p {
+    margin: 0%;
+  }
+  .communicate {
+    display: flex;
+    flex-direction: column;
+  }
+  .communicate .location, .communicate .phone, .communicate .email {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    border-left: 2px solid grey;
+    padding-left: 3%;
+  }
+  .communicate .location h2, .communicate .phone h2, .communicate .email h2 {
+    margin-right: 3%;
+  }
+  .register {
+    display: flex;
+    flex-direction: column;
+  }
+  .register .drop {
+    border-left: none;
+    margin: -20%;
+    margin-top: 5%;
+    padding: 4%;
+  }
+  .register .input {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2%;
+    width: 90%;
+  }
+}

@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+nav {
+  background-color: rgb(36, 40, 85);
+  display: flex;
+  padding: 1%;
+  flex-direction: row;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav .nav-left img {
+  border: 2px solid orangered;
+  border-radius: 50%;
+}
+nav .nav-left .link {
+  margin-left: 1%;
+}
+nav .nav-left .link a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+nav .nav-left .link #active {
+  background-color: orange;
+}
+nav .nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav .nav-right button {
+  margin: 20px;
+  background-color: goldenrod;
+  padding: 7px 10px 7px 10px;
+  border: none;
+  border-radius: 10px;
+}
+nav .nav-right button:hover {
+  cursor: pointer;
+  background-color: rgb(17, 33, 28);
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 40, 85);
+  margin-top: 5%;
+  padding: 2%;
+}
+.footer p, .footer h3 {
+  margin-top: -5px;
+}
+.footer h2 {
+  color: white;
+}
+.footer p:hover {
+  cursor: pointer;
+  color: rgb(255, 9, 202);
+}
+.footer .mission {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  color: grey;
+}
+.footer .get {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: grey;
+}
+.footer .our {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: grey;
+}
+.footer img:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.footer .connect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border-left: 2px solid rgb(72, 64, 64);
+  padding-left: 1%;
+  color: rgb(70, 51, 51);
+}
+.footer .connect .meida {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+::-moz-placeholder {
+  font-size: 20px;
+}
+
+:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+.video-container {
+  background: white;
+  flex: 4;
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.img-card {
+  flex-basis: 24%;
+}
+
+.picture iframe {
+  width: 100%;
+}
+
+.card {
+  background: white;
+  flex: 3;
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.channel-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.video-card {
+  flex-basis: 24%;
+}
+
+.video iframe {
+  width: 100%;
+}
+
+.main {
+  text-align: center;
+  height: 50%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar .sidebar-left {
+  width: 70%;
+  background-color: rgb(250, 249, 252);
+  background-image: url(../imag/change-job-location-linkedin.png);
+  background-color: aqua;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+}
+.sidebar .sidebar-left .first {
+  text-align: center;
+}
+.sidebar .sidebar-left .first h2 {
+  font-size: 60px;
+  margin: 5%;
+}
+.sidebar .sidebar-left .first .staff {
+  padding-top: 90%;
+  text-align: center;
+}
+.sidebar .sidebar-left .first .staff h2 {
+  color: orangered;
+  background-color: rgba(0, 255, 255, 0.26);
+}
+.sidebar .sidebar-left .first .staff p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.247);
+  padding: 2%;
+}
+.sidebar .sidebar-left .first button {
+  padding: 1%;
+  background-color: white;
+  border: 1px solid black;
+}
+.sidebar .sidebar-left .first button:hover {
+  cursor: pointer;
+  padding: 2%;
+  color: black;
+  background-color: rgb(241, 241, 248);
+}
+.sidebar .sidebar-left .second {
+  margin-top: 5%;
+  background-color: rgb(101, 85, 151);
+}
+.sidebar .sidebar-right {
+  width: 30%;
+  background-color: white;
+}
+.sidebar .sidebar-right .read {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+.sidebar .sidebar-right .read img {
+  margin-right: 5%;
+  height: 5%;
+}
+.sidebar .sidebar-right .pic {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.sidebar .sidebar-right .pic img {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.sidebar .sidebar-right .pic button {
+  margin-top: 10%;
+  border-radius: 0%;
+  padding: 5%;
+  font-size: 20px;
+}
+.sidebar .sidebar-right h2 {
+  padding: 5%;
+}
+.sidebar .sidebar-right h2 span {
+  color: orangered;
+  font-size: 50px;
+}
+.sidebar .sidebar-right h2 h1 {
+  padding: 5%;
+}
+.sidebar .sidebar-right .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sidebar .sidebar-right .search input {
+  padding: 2%;
+  width: 70%;
+}
+.sidebar .sidebar-right .search button {
+  background-color: blue;
+  border-radius: 0%;
+  color: white;
+}
+
+@media (max-width: 744px) {
+  nav .nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -10%;
+  }
+  nav .nav-left .link {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-left img {
+    margin-left: 15%;
+    width: 40%;
+  }
+  nav .nav-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 744px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar .sidebar-right {
+    width: 100%;
+  }
+  .sidebar .sidebar-left {
+    width: 100%;
+  }
+  .img-card {
+    flex-basis: 40%;
+  }
+  .picture iframe {
+    width: 100%;
+  }
+  .card {
+    background: #F9F9F9;
+    flex: 3;
+    display: flex;
+    gap: 10px;
+    padding: 25px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .active {
+    background: black;
+    color: white;
+  }
+  .video-card {
+    flex-basis: 48%;
+  }
+  .video iframe {
+    width: 100%;
+  }
+  .main {
+    height: 60vh;
+    padding: 5%;
+  }
+}
+@media (max-width: 448px) {
+  .img-card {
+    flex-basis: 100%;
+  }
+  .video-card {
+    flex-basis: 100%;
+  }
+}

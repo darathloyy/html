@@ -1,0 +1,38 @@
+@import "../globle/variable";
+.video-container {
+    background: $colorbac;
+    flex:4;
+    display: flex;
+    gap:10px;
+    padding: 25px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+.img-card {
+    flex-basis: 24%;
+}
+.picture iframe{
+    width: $width;
+}
+.card {
+    background: $colorbac;
+    flex:3;
+    display: flex;
+    gap:10px;
+    padding: 25px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+.channel-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.video-card {
+    flex-basis: 24%;
+}
+.video iframe{
+    width: $width;
+}
